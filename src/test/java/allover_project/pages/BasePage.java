@@ -1,4 +1,4 @@
 package allover_project.pages;
 
-public class AddressPage {
+public class BasePage {
 }
