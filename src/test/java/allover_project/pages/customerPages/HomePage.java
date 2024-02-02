@@ -13,7 +13,6 @@ public class HomePage {
     @FindBy (xpath = "//span[.='Sign In']")
     public WebElement signIn;
 
-//    adsad
 
 
 }
