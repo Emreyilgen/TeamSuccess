@@ -7,7 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class AddressPage {
 
-    public AddressPage(){PageFactory.initElements(Driver.getDriver(), this);}
+    public AddressPage(){
+        PageFactory.initElements(Driver.getDriver(), this);}
 
     @FindBy(xpath = "//input[@name='billing_first_name']")
     public WebElement billingFirstName;

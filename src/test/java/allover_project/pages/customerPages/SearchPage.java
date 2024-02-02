@@ -35,6 +35,9 @@ public class SearchPage {
     public WebElement becomeAVendor;//Gökhan Become A Vendor part
 
 
+    /*
+         Me Gokhan's code
+     */
 
 
 }
