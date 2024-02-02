@@ -34,4 +34,7 @@ public class SearchPage {
     @FindBy()
     public WebElement becomeAVendor;//Gökhan Become A Vendor part
 
+
+
+
 }
