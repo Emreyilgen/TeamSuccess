@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static myapp.utilities.MediaUtils.takeScreenshotOfTheEntirePageAsString;
+import static allover_project.utilities.MediaUtils.takeScreenshotOfTheEntirePageAsString;
 
 public class ExtentReportUtils {
     protected static ExtentReports extentReports;
