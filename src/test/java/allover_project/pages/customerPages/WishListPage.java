@@ -30,6 +30,10 @@ public class WishListPage {
     public WebElement SuccessToMessage; //emrey
 
 
+    /*
+
+    we have all
+     */
 
 
 
