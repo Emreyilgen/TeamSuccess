@@ -12,7 +12,9 @@ public class ConfigReader {
 
     //    Using Java logic, we will create static block and a method which will return us the value from configuration.properties file
 //    Static block ==> it is called before the class ==? runs the pre-requisites of that class
+
     static {
+
         String path = "configuration.properties";
         try {
             FileInputStream fileInputStream = new FileInputStream(path);
@@ -25,7 +27,13 @@ public class ConfigReader {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
+
+
+
     }
+
+
 
     public static String getProperty(String key) {
         String value = properties.getProperty(key);
@@ -34,6 +42,10 @@ public class ConfigReader {
 
 
 }
+
+
+
+
 
 
 
