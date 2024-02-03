@@ -14,6 +14,7 @@ public class US_08 {
         wishListPage.searchBox.click();
         wishListPage.searchBox.sendKeys("camera");
 //    user must click the heart icon of a specific product
+
 //    User must see heart icon filled with color
 //    user must see the wishlist icon (beside to the search box)
 //    User must click on the wishlist icon(heart icon)
